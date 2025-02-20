@@ -1,0 +1,19 @@
+﻿using System;
+using System.Threading.Tasks.Dataflow;
+
+namespace AskForInput
+{
+    public class Program
+    {
+        private static void Main(string[] args)
+        {
+            string numintstr;
+            numintstr = Console.ReadLine();
+            int numint = Convert.ToInt32(numintstr);
+            string numrealstr;
+            numrealstr = Console.ReadLine();
+            double numreal = Convert.ToDouble(numrealstr);
+            Console.WriteLine($"Soma é {numint + numreal}");
+        }
+    }
+}
