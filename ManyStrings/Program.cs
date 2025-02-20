@@ -18,12 +18,14 @@ namespace ManyStrings
             int x = 4;
             int y = 9;
             string xato = astr + x;
+            string soma = $"{x} mais {y} é igual a {x+y}";
+            string valor = $"valor de x é {x}";
             Console.WriteLine(str2 += "!");
             Console.WriteLine(nome + " morreu " + cruz);
             Console.WriteLine(numa);
             Console.WriteLine(xato);
-            Console.WriteLine($"valor de x é {x}");
-            Console.WriteLine($"{x} mais {y} é igual a {x+y}");
+            Console.WriteLine(valor);
+            Console.WriteLine(soma);
         }
     }
 }
