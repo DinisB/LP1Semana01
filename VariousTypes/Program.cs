@@ -21,6 +21,8 @@ namespace VariousTypes
             float i = 3.1415f;
             double j = 3.1415926535;
             decimal k = 3.14159265358979323846m;
+            bool ltrue = true;
+            bool lfalse = false;
 
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -35,6 +37,8 @@ namespace VariousTypes
             Console.WriteLine(i);
             Console.WriteLine(j);
             Console.WriteLine(k);
+            Console.WriteLine(ltrue);
+            Console.WriteLine(lfalse);
         }
     }
 }
