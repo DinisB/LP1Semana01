@@ -8,6 +8,8 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
             Console.OutputEncoding = Encoding.UTF8; 
             string str1 = "\tBom dia";
             string nome = "\nJubileu";
@@ -26,6 +28,10 @@ namespace ManyStrings
             Console.WriteLine(xato);
             Console.WriteLine(valor);
             Console.WriteLine(soma);
+            Console.WriteLine("{0:F2}", xx);
+            Console.WriteLine("{0:P1}", xx);
+            Console.WriteLine("{0:X}", ii);
+            Console.WriteLine("{0:C}", ii);
         }
     }
 }
