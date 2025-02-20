@@ -16,6 +16,8 @@ namespace VariousTypes
             uint f = 4294967295;
             long g = 9223372036854775807;
             ulong h = 18446744073709551615;
+            char cruz = '\u2020';
+            char tesoura = '\u2702';
 
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -25,6 +27,8 @@ namespace VariousTypes
             Console.WriteLine(f);
             Console.WriteLine(g);
             Console.WriteLine(h);
+            Console.WriteLine(cruz);
+            Console.WriteLine(tesoura);
         }
     }
 }
