@@ -18,6 +18,9 @@ namespace VariousTypes
             ulong h = 18446744073709551615;
             char cruz = '\u2020';
             char tesoura = '\u2702';
+            float i = 3.1415f;
+            double j = 3.1415926535;
+            decimal k = 3.14159265358979323846m;
 
             Console.WriteLine(a);
             Console.WriteLine(b);
@@ -29,6 +32,9 @@ namespace VariousTypes
             Console.WriteLine(h);
             Console.WriteLine(cruz);
             Console.WriteLine(tesoura);
+            Console.WriteLine(i);
+            Console.WriteLine(j);
+            Console.WriteLine(k);
         }
     }
 }
