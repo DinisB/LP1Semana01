@@ -25,14 +25,14 @@ namespace Percentagem
             num2 = Convert.ToDecimal(num2str);
             num3 = Convert.ToDecimal(num3str);
             num4 = Convert.ToDecimal(num4str);
-            if (num1 > 0 && num1 < 1 || num2 > 0 && num2 < 1 || num3 > 0 && num3 < 1 || num4 > 0 && num4 < 1) {
-                Console.WriteLine("\t{0:P1}", num1);
-                Console.WriteLine("\t{0:P1}", num2);
-                Console.WriteLine("\t{0:P1}", num3);
-                Console.WriteLine("\t{0:P1}", num4);
+            if (num1str.Length > 8 || num2str.Length > 8 || num3str.Length > 8 || num4str.Length > 8){
+                Console.WriteLine("\t{0:P2}", num1);
+                Console.WriteLine("\t{0:P2}", num2);
+                Console.WriteLine("\t{0:P2}", num3);
+                Console.WriteLine("\t{0:P2}", num4);
             }
             else {
-                Console.WriteLine("O número tem de ser entre 0 e 1!");
+                Console.WriteLine("O numero não pode ter mais de 7 casas");
             }
         }
     }
